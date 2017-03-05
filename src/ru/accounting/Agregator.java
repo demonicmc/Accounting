@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 public class Agregator {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        Excel excel = new Excel();
         Excel excel = new Excel();
         String str = null;
         Income income = new Income();
@@ -65,7 +66,8 @@ public class Agregator {
         }
 
 
-            excel.method1(income,expenses);
+//            excel.method1(income,expenses);
+            excel.addHistory(income, expenses);
 
 
 //        double differenceYear = yearIn - yearEx;

@@ -25,6 +25,10 @@ public class Expenses {
             }
     }
 
+    public List<Double> getCm() {
+        return cm;
+    }
+
     public double balanceMonth(){
         double sum = 0.0;
         for(Double d : cm){

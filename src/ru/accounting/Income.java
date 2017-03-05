@@ -19,6 +19,9 @@ public class Income {
         }
     }
 
+    public List<Double> getMi() {
+        return mi;
+    }
 
     public double balanceMonth(){
         double sum = 0.0;
